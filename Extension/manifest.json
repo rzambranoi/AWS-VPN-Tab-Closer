@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "AWS VPN Close Tab",
+    "description": "Automatically closes the tab that opens AWS VPN every time you want to connect to the VPN",
+    "version": "1.0",
+    "author": "info@ricardzambrano.com",
+    "icons": {
+        "128": "icon.png"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "http://127.0.0.1:35001"
+    ]
+}
