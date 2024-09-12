@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Tab Closer",
+	"version": "1.0",
+	"description": "Automatically closes the tab that opens AWS VPN every time you want to connect to the VPN",
+	"permissions": ["tabs", "http://127.0.0.1/*"],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"icons": {
+		"128": "icon.png"
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "tabcloser@ricardzambrano.com"
+		}
+	}
+}
